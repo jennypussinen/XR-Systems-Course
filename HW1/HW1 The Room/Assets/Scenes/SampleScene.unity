@@ -416,6 +416,7 @@ GameObject:
   - component: {fileID: 531636171}
   - component: {fileID: 531636173}
   - component: {fileID: 531636172}
+  - component: {fileID: 531636174}
   m_Layer: 5
   m_Name: Text (Legacy)
   m_TagString: Untagged
@@ -490,6 +491,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 531636170}
   m_CullTransparentMesh: 1
+--- !u!114 &531636174
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 531636170}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99847307ed0c06f4f9db8b16e24f3754, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  action: {fileID: -3327899953565705180, guid: 052faaac586de48259a63d0c4782560b, type: 3}
 --- !u!1 &576823547
 GameObject:
   m_ObjectHideFlags: 0
@@ -503,7 +517,7 @@ GameObject:
   - component: {fileID: 576823550}
   - component: {fileID: 576823549}
   m_Layer: 0
-  m_Name: Sphere (1)
+  m_Name: Moon
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1080,7 +1094,7 @@ Canvas:
   m_Enabled: 1
   serializedVersion: 3
   m_RenderMode: 2
-  m_Camera: {fileID: 0}
+  m_Camera: {fileID: 1758182558}
   m_PlaneDistance: 100
   m_PixelPerfect: 0
   m_ReceivesEvents: 1
@@ -1355,8 +1369,9 @@ GameObject:
   - component: {fileID: 1481165508}
   - component: {fileID: 1481165507}
   - component: {fileID: 1481165506}
+  - component: {fileID: 1481165510}
   m_Layer: 0
-  m_Name: Sphere
+  m_Name: Planet
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1452,6 +1467,19 @@ Transform:
   - {fileID: 576823548}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1481165510
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1481165505}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e925b41cab8995349b99776e68135368, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rotationSpeed: 10
 --- !u!1 &1522475423
 GameObject:
   m_ObjectHideFlags: 0
@@ -1531,6 +1559,11 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!20 &1758182558 stripped
+Camera:
+  m_CorrespondingSourceObject: {fileID: 1767192439, guid: f6336ac4ac8b4d34bc5072418cdc62a0, type: 3}
+  m_PrefabInstance: {fileID: 456084933}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1854417430
 GameObject:
   m_ObjectHideFlags: 0
