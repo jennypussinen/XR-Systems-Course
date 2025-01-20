@@ -504,9 +504,31 @@
                 },
                 {
                     "name": "",
+                    "id": "0e31a420-4f6e-4d86-9f57-df37fb0c9504",
+                    "path": "<Keyboard>/escape",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Quit",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
                     "id": "4bd22698-6ed6-4483-854b-33a87dbdbf1b",
                     "path": "<XRController>{LeftHand}/{PrimaryButton}",
                     "interactions": "Press",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Move Player",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "72c068cf-01c3-40e9-b246-60f3c1950f56",
+                    "path": "<Keyboard>/space",
+                    "interactions": "",
                     "processors": "",
                     "groups": "",
                     "action": "Move Player",
